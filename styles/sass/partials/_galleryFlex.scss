@@ -1,3 +1,12 @@
 .galleryText h2{
     text-align: center;
 }
+.galleryFlex{
+    margin: 4em auto;
+    display: flex;
+    justify-content: space-between;
+    gap:1.75em;
+
+}
+
+

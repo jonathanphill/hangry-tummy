@@ -1,16 +1,19 @@
 .dessertSection{
+    // border: 4px solid black;
     background-color: hsl(0, 0%, 97%);
     padding: 70px 100px;
 }
 
-.desserts{    
+.desserts{
+    // border: 4px solid black;
     display: flex;
     align-items: center;
     
 }
 .dessertText{
     width: 70%;
-    margin-left: 20px;
+    // border: 4px solid black;
+    margin-left: 40px;
     p{
         margin-top:5px;
         margin-bottom:10px;

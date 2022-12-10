@@ -222,7 +222,6 @@ html {
 }
 
 html {
-  max-width: 1280px;
   font-size: 125%;
   font-family: "Catamaran", sans-serif;
   font-family: "Montserrat", sans-serif;
@@ -338,16 +337,85 @@ nav {
   color: red;
 }
 
-.quarters {
-  border: 2px soild tomato;
+.wrapper {
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
   display: flex;
   flex-wrap: wrap;
 }
-.quarters div {
-  border: 2px soild tomato;
-  flex: 1 0 50%;
+
+.topRow,
+.bottomRow {
+  display: flex;
 }
 
+.topRow div,
+.bottomRow div {
+  flex-basis: 50%;
+}
+
+.textContainer {
+  /* border: 2px solid black; */
+  min-width: 344px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  min-width: 344px;
+  /* border: 2px solid red; */
+}
+
+@media (max-width: 900px) {
+  .topRow,
+.bottomRow {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid greenyellow; */
+  }
+  .topRow {
+    /* border: 2px solid violet; */
+    flex-direction: column-reverse;
+  }
+  .bottomRow {
+    flex-direction: column;
+  }
+  .textContainer,
+.imgContainer {
+    height: 50%;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    display: block;
+  }
+}
+@media (max-width: 446px) {
+  .textContainer {
+    /* border: 2px solid black; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    min-width: 344px;
+    /* border: 2px solid violet; */
+    display: block;
+    width: 100%;
+  }
+}
 .dessertSection {
   background-color: hsl(0deg, 0%, 97%);
   padding: 70px 100px;
@@ -360,7 +428,7 @@ nav {
 
 .dessertText {
   width: 70%;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .dessertText p {
   margin-top: 5px;

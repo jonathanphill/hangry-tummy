@@ -9,6 +9,7 @@ body{
     p{
         font-family: 'Catamaran', sans-serif;
         line-height: 29px;
+        font-size: 1em;
         font-family:400;
 
     }
@@ -16,6 +17,11 @@ body{
 .wrapper{
     max-width: 1280px;
     width: 90%;
+    margin: 0 auto;
+}
+.wrapper2{
+    max-width: 1280px;
+    width: 85%;
     margin: 0 auto;
 }
 img{

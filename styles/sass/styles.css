@@ -234,12 +234,19 @@ body {
 body p {
   font-family: "Catamaran", sans-serif;
   line-height: 29px;
+  font-size: 1em;
   font-family: 400;
 }
 
 .wrapper {
   max-width: 1280px;
   width: 90%;
+  margin: 0 auto;
+}
+
+.wrapper2 {
+  max-width: 1280px;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -285,15 +292,15 @@ h2 {
 h2 {
   text-transform: uppercase;
   font-family: "Montserrat";
-  font-size: 42px;
+  font-size: 1.5em;
   font-weight: 700;
 }
 
 h1 {
-  font-family: "Montserrat";
-  line-height: 120px;
-  font-size: 120px;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  line-height: 85px;
+  font-size: 5em;
+  font-weight: 600;
 }
 
 .headerContent,
@@ -360,7 +367,7 @@ img {
 
 .topRow div,
 .bottomRow div {
-  flex-basis: 50%;
+  flex-basis: 77%;
 }
 
 .textContainer {
@@ -417,17 +424,18 @@ img {
   }
 }
 .dessertSection {
-  background-color: hsl(0deg, 0%, 97%);
-  padding: 70px 100px;
+  margin: 5em auto;
+}
+
+.dessertImage {
+  width: 158%;
 }
 
 .desserts {
   display: flex;
-  align-items: center;
 }
 
 .dessertText {
-  width: 70%;
   margin-left: 40px;
 }
 .dessertText p {
@@ -440,10 +448,11 @@ img {
 }
 
 .icons {
-  height: 400px;
+  height: 16em;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 4em;
 }
 
 .svgIcon {
@@ -471,9 +480,9 @@ img {
 }
 
 .fa {
-  padding: 12px;
-  font-size: 30px;
-  width: 50px;
+  padding: 7px;
+  font-size: 26px;
+  width: 30px;
   text-align: center;
   text-decoration: none;
 }
@@ -502,4 +511,8 @@ img {
 /* Twitter */
 .fa-twitter {
   color: #E75606;
+}
+
+.galleryText h2 {
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */

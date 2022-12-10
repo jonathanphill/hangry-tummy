@@ -1,0 +1,38 @@
+.svgIconSection{
+    background-color: #E75605;
+}
+
+.icons{    
+    height: 400px;
+    // border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svgIcon{
+    width: 50px;
+}
+.svgFlex{
+    width: 40%;
+    height:40%;
+    // border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    p{
+        margin-top: 8px;
+        font-family: 'Catamaran', sans-serif;
+        font-weight: 700;
+        text-align:center;
+        text-transform: uppercase;
+        color: white;
+    }
+    div{
+        // border:1px solid black;
+        img{
+            margin: 0 auto;
+        }
+    }
+    
+}

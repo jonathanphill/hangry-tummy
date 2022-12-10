@@ -1,0 +1,33 @@
+@use "./colors" as b;
+
+.fa {
+    padding: 12px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+  /* Facebook */
+  .fa-facebook {
+    color: b.$primary;
+  }
+  /* Instagram */
+  .fa-instagram {
+    color: b.$primary;
+  }
+  /* Snapchat Ghost */
+  .fa-snapchat-ghost {
+    color: b.$primary;
+  }  
+  /* Twitter */
+  .fa-twitter {
+    color: b.$primary;
+  }
+  

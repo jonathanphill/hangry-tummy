@@ -1,13 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./styles/sass/styles.css">
+    <title>Hangry Tammy</title>
+</head>
+<body>
+    
+    <header><!-- Header Starts Here -->
+        <!-- Navigation Items- Home, About, Blog and Contact -->
+        <nav class="wrapper headerNav">
+            <ul class="navFlex">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav><!-- Navtigation ENDS!!! -->
+
+        <!-- Container for the header content with the burger image, hangru tummy and social Icons -->
+        <div class="headerContent">
+
+          <div class="hero-image">
+              <img src="./assets/header-burger.png" alt="image of a burger">
+          </div>
+          <div class="hangry-tummy">
+              <h1>Hangry<span>Tummy</span></h1>
+              <!-- All the social media icons -->
+              <ul>
+                  <li><a href="#" class="fa fa-instagram"></a></li>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-snapchat-ghost"></a></li>
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                  
+              </ul>
+          </div>
+        </div><!-- Header Content ENDS here !! -->
+        
+
+    </header><!-- Header Ends HERE !!! -->
+    
+
+    <!-- Main Section Begins STARTS  -->
+    <main>
+
+      <section><!-- Section with Quarters Ends HERE !!! -->
+        <div class="fouBlockSection">
+          <div class="textImageContainer">
+            <div class="textContainer">
+              <div class="textPosition">
+                <h2>New To Our Menu</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure exercitationem blanditiis, nisi magnam inventore explicabo enim veniam. Culpa dolore nesciunt, ex incidunt aspernatur debitis, doloremque, consequatur necessitatibus explicabo quaerat dignissimos!
+               </p>
+                <button class="button">Read More</button>
+              </div>
+            </div>
+            <div class="imageContainer">
+              <img src="./assets/right-photo.jpg" alt="image of burger and fries">
+            </div>
+          </div>
+          <div class="textImageContainer">
+            <div class="imageContainer">
+              <img src="./assets/left-photo.jpg" alt="image of food-fries, french onion soup, baked beans and eggs ">
+            </div>
+            <div class="textContainer">
+              <div class="textPosition">
+                <h2>Full Experiences</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure exercitationem blanditiis, nisi magnam inventore explicabo enim veniam. Culpa dolore nesciunt, ex incidunt aspernatur debitis, doloremque, consequatur necessitatibus explicabo quaerat dignissimos!
+               </p>
+                <button class="button">Read More</button>
+              </div>
+          </div>         
+        </div>
+      </section><!-- Section with Quarters Ends HERE !!! -->
+
+      <section class="dessertSection">
+        <div class="wrapper desserts">
+          <div class="dessertImage">
+            <img src="./assets/square-imege.jpg" alt="selction of 4 ice-creams scooped onto round plates">
+          </div>
+          <div class="dessertText">
+            <h2>Desserts</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui rem, maiores reiciendis ratione nemo, iusto quae quisquam atque iste sapiente dignissimos nisi alias quo vero molestiae unde adipisci assumenda. Accusamus.
+            Assumenda, blanditiis perferendis! Officia ea cum cumque quisquam quam ex hic ipsum magnam maxime veritatis quis quibusdam totam eius quasi iste labore similique natus, quae reiciendis tempora odio adi</p>
+            <button class="button">Read More</button>
+          </div>
+          
+        </div>
+      </section >
+      <section class="svgIconSection">
+        <div class="icons">
+          <div class="svgFlex">
+            <div class="iconContainer">
+              <img class="svgIcon" src="./assets/location-arrow-solid.svg" alt="">
+              <p>Locations</p>
+            </div>
+            <div class="iconContainer">
+              <img class="svgIcon" src="./assets/utensils-solid.svg" alt="">
+              <p>Menu</p>
+            </div>
+            <div class="iconContainer">
+              <img class="svgIcon" src="./assets/phone-flip-solid.svg" alt="">
+              <p>Reach Out</p>
+            </div>
+          </ul>
+        </div>
   
-    <script type="module" src="/main.js"></script>
-  </body>
+      </section>
+      <section>
+        <div class="wrapper">
+          <div class="galleryText">
+            <h2>The Gram</h2>
+            <div class="galleryImage">
+              <ul>
+                <li><img src="./assets/gallery-photo-1.jpg" alt="image of chicken wings garnished with parsley"></li>
+                <li><img src="./assets/gallery-photo-2.jpg" alt=" beautiful plate of mixed vegetables"></li>
+                <li><img src="./assets/gallery-photo-3.jpg" alt="chicken wings garnished wiht sesame seeds, with ranch and onions salad"></li>
+              </ul>
+            </div>
+    
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <nav class="wrapper footerNav">
+        <ul class="navFlex">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="footerInfo wrapper">
+      <div class="contactInfo">
+        <h2>Contact</h2>
+        <p>info@email.com | 123-456-7890<br>123 some road, Toronto, ON<br>A5A 5A5, Canada</p>
+      </div>
+      <div class="subsribe">
+        <h2>Stay Updated</h2>
+        <div class="emailInput">
+          <p>Subscribe to our newsletter  to stay updated</p>
+          <label for="email"></label>
+          <input type="text" name="" id="email" placeholder="email address">
+          <button class="button">Subscribe</button>
+      </div>
+
+      </div>
+    </div>
+
+    </footer>
+    
+</body>
 </html>

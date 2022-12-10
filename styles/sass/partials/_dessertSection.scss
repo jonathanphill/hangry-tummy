@@ -1,0 +1,19 @@
+.dessertSection{
+    background-color: hsl(0, 0%, 97%);
+    padding: 70px 100px;
+}
+
+.desserts{    
+    display: flex;
+    align-items: center;
+    
+}
+.dessertText{
+    width: 70%;
+    margin-left: 20px;
+    p{
+        margin-top:5px;
+        margin-bottom:10px;
+    }
+    
+}

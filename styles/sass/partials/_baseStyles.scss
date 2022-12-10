@@ -1,0 +1,50 @@
+html{
+    max-width: 1280px;
+    font-size: 125%;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+body{
+    font-family: 'Catamaran', sans-serif;
+    p{
+        font-family: 'Catamaran', sans-serif;
+        line-height: 29px;
+        font-family:400;
+
+    }
+}
+.wrapper{
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    color:black;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    border: 4px solid tomato;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 29px;
+    background-color:white;
+    text-transform: uppercase;
+    color: black;
+    padding: 5px 15px;
+}

@@ -1,0 +1,11 @@
+.quarters{
+    border: 2px soild tomato;
+    display: flex;
+    flex-wrap: wrap;
+    div{
+        border: 2px soild tomato;
+        flex:1 0 50%;
+
+    }
+
+}

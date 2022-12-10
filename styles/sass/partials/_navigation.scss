@@ -1,0 +1,26 @@
+nav{
+    // border: 1px solid tomato;
+    display: flex;
+    justify-content: center;
+}
+.navFlex{
+    width: 30%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    li{
+        a{
+            // border: 2px solid green;
+            text-transform: uppercase;
+            line-height: 29px;
+            font-size: 20px;
+            font-family:'Montserrat';
+            
+        }
+        a:hover{
+            color:red ;
+        }
+        
+    }
+
+} 

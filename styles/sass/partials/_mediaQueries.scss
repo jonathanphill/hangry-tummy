@@ -26,6 +26,19 @@
         margin-top: 8em;
 
     }
+    @media (max-width:750px) {
+        .hero-image{
+            max-width: 100%;
+            max-height:100%;
+            position: relative;
+            margin-top:10em;
+            img{
+                position:relative;
+                left: -36%;
+            }
+    
+        }
+    }
 //********************************************************************************//   
     // Dessert Section to wrap
     .desserts{
@@ -110,7 +123,13 @@
         width: 100%;
     }
 
-}// Content in the second section with 4 quarters ENDS!!
+}
+@media (max-width:525px) {
+    .text{
+        margin-bottom: 4em;
+    }
+}
+// Content in the second section with 4 quarters ENDS!!
 // ********************************************************************************//
 // Image gallery in THE GRAM to show only two images when resized STARTS !!
 @media (max-width:1120px) {
@@ -131,8 +150,8 @@
 // ********************************************************************************//
 // Image gallery in THE GRAM to show only two images when resized ENDS !!
 // ********************************************************************************//
-// Footer styles with contact and stay updated to wrap and the screen size shrinks
-@media (max-width: 900px) {
+// Footer styles with contact and stay updated to wrap as the screen size shrinks
+@media (max-width: 900px){
     .footerInfo,
     form{
         flex-direction: column;
@@ -159,3 +178,12 @@
     }
 
 }
+@media (max-width:470px){
+    footer{
+
+        height: 14vh;
+        
+    }
+}
+// ********************************************************************************//
+// Footer styles with contact and stay updated to wrap as the screen size shrinks

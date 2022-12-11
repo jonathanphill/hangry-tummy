@@ -2,10 +2,11 @@ footer{
     background-color: hsl(0, 0%, 90%);
     // border: 2px solid black;
     padding-top: 1.25em;
+    height: 10vh;
     .footerNav{
         margin-bottom: 2.5em;  
     }
-    height: 10vh;
+    
     
 }
 .footerInfo{
@@ -36,5 +37,5 @@ form{
 }
 ::placeholder {
     color: black;
-    opacity: 1; 
+    opacity: 1;
   }

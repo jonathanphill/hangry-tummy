@@ -5,8 +5,19 @@
     margin: 4em auto;
     display: flex;
     justify-content: space-between;
-    gap:1.75em;
+    // gap:1.75em;
 
+}
+
+.galleryFlex li{
+    width: calc(100% / 3 - 20px);
+}
+.galleryFlex li img{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    vertical-align: middle;
 }
 
 
